@@ -1,7 +1,7 @@
 class Lsheroku < Formula
   desc "Everything you need to get started with Heroku"
   homepage "https://cli.heroku.com"
-  url "https://cli-assets.heroku.com/heroku-v7.45.0/heroku-v7.45.0.tar.xz"
+  url "https://cli-assets.heroku.com/heroku-v7.49.1/heroku-v7.49.1.tar.xz"
   sha256 "11cb11c90b8a507bead4b2d14d4f0f4171c7d58cc7aba406c82793d8e8f1bc7b"
   depends_on "lshadler/brew/lsheroku-node"
 
