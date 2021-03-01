@@ -1,4 +1,4 @@
-class HerokuNode < Formula
+class LSHerokuNode < Formula
   desc "node.js dependency for heroku"
   homepage "https://cli.heroku.com"
   url "https://cli-assets.heroku.com/homebrew/node-12.16.2.tar.xz"
