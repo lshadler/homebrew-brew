@@ -3,7 +3,7 @@ class Lsheroku < Formula
   homepage "https://cli.heroku.com"
   url "https://cli-assets.heroku.com/heroku-v7.45.0/heroku-v7.45.0.tar.xz"
   sha256 "6c5ecfb0227fa928c1cc3e1923c223379d02d70a2955a1ba3b906c0526885741"
-  depends_on "heroku/brew/heroku-node"
+  depends_on "lshadler/brew/heroku-node"
 
   def install
     inreplace "bin/heroku", /^CLIENT_HOME=/, "export HEROKU_OCLIF_CLIENT_HOME=#{lib/"client"}\nCLIENT_HOME="
